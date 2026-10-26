@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  /* background-color: bisque; */
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.paddind{
+  padding-left:10px;
+}
+
+.header {
+  
+  background-color:rgb(236, 238, 238);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  width: 1200px 200px;
+  margin: 20px 20px;
+  transition: 5s ease box-shadow;
+  border-radius: 50px;
+}
+
+.header:hover {
+    box-shadow:
+    0 0 100px rgb(53, 48, 48),
+    0 0 10px #1b1919,
+    0 0 198px rgb(133, 133, 104);
+}
+
+.logo {
+  width: 95px;
+  height: 100px;
+  border-radius: 560%;
+  border: solid 6px #ffff;
+}
+
+.header-link a{
+  color: rgb(20, 34, 34); 
+  padding: 70px 40px;
+  font-size: 23px;
+  text-decoration: none;
+  border-radius: 19px 22px;
+  transition: 1s ease all;
+}
+
+.header-link:hover a {
+    opacity: 0.1;
+}
+
+.header-link a:hover {
+    opacity: 1;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 19px 22px;
+  border: 0px;
+  transition: all 1s ease;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.never img {
+  width: 500px;
+  border-radius: 20px;
+  border: 0px;
+}
+p {
+  font-size: 22px;
+}
+.hero h2, h3{
+  font-style: italic;
+}

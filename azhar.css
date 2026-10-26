@@ -1,0 +1,101 @@
+body {
+        font-family: fangso;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.header {
+    background-color: rgb(236, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    width: 100% 200px;
+    margin: 10px 20px 20px;
+    transition: 5s ease box-shadow;
+    border-radius: 50px;
+    position: relative;
+    top: 50px ;  
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.header:hover {
+    box-shadow:
+    0 0 100px rgb(53, 48, 48),
+    0 0 10px #1b1919,
+    0 0 198px rgb(133, 133, 104);
+}
+
+.display{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 20px;
+}
+.display span{
+
+    font-size: 19px;
+}
+
+.logo {
+border: 6px solid white ;
+    width: 95px;
+    height: 100px;
+    border-radius: 560%;
+
+}
+
+.header-link a{
+    
+    color: rgb(20, 34, 34); 
+    padding: 20px;
+    font-size: 23px;
+    text-decoration: none;
+    border-radius: 19px 22px;
+    transition: 1s ease all;
+}
+
+.header-link:hover a {
+    opacity: 0.1;
+}
+
+.header-link a:hover {
+    opacity: 1;
+}
+.btn {
+    background-color: #1b1919;
+    color: rgb(226, 222, 222);
+    padding: 20px;
+    border-radius: 19px 22px;
+    border: 0px;
+    transition: all 1s ease;
+    text-transform: capitalize;
+}
+
+/*==============section===============*/
+
+section div h3{
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+section li{
+    list-style: none;
+        letter-spacing: 1px;
+        line-height: 1;     
+        font-size:  px;
+}
+section ul{
+    font-size: 20px;
+        list-style: none;
+        letter-spacing: 1px;
+        line-height: 1;  
+}
+section ul li h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}       
